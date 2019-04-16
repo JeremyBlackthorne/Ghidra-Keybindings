@@ -6,6 +6,9 @@ Table included below for browsing.
 ## Install
 In Ghidra's CodeBrowser, go to the menu Edit->Tool Options, then click KeyBindings on the left. On the bottom right, click the button Import and select the file ending in .kbxml in the repository. There's a button to restore defaults at any time too.
 
+## Other Available Ghidra KeyBindings
+* https://github.com/enovella/ida2ghidra-kb
+
 ## Custom KeyBindings
 <body link="#0563C1" vlink="#954F72">
 
