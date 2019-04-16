@@ -1,0 +1,502 @@
+﻿!=,Action Name,Default KeyBinding,Custom KeyBinding,Plugin Name
+ ,View Program Differences,2,2,ProgramDiffPlugin
+📕,Define string,,A,Tool
+ ,Expand All,Alt-DOWN,Alt-DOWN,DataTypeManagerPlugin
+ ,Add To Program,Alt-I,Alt-I,ImporterPlugin
+📕,Add Bookmark,Meta-D,Alt-M,BookmarkPlugin
+ ,Create Default Reference,Alt-R,Alt-R,ReferencesPlugin
+ ,Next in History Buffer,Alt-RIGHT,Alt-RIGHT,NextPrevAddressPlugin
+ ,Collapse All,Alt-UP,Alt-UP,DataTypeManagerPlugin
+ ,Clear Function Return Type,C,C,FunctionPlugin
+ ,Clear Parameter Data Type,C,C,FunctionPlugin
+ ,Clear Variable Data Type,C,C,FunctionPlugin
+📕,Disassemble,D,C,DisassemblerPlugin
+📕,Edit Stack Frame,,Ctrl-K,StackEditorManagerPlugin
+📕,"Cycle: byte,word,dword,qword",B,D,Tool
+ ,Delete,DELETE,DELETE,DataTypePreviewPlugin
+ ,Delete,DELETE,DELETE,DataTypeManagerPlugin
+ ,Delete Archive,DELETE,DELETE,DataTypeManagerPlugin
+ ,Delete Bookmarks,DELETE,DELETE,BookmarkPlugin
+ ,Delete Comments,DELETE,DELETE,CommentsPlugin
+ ,Delete folder/fragment,DELETE,DELETE,ProgramTreePlugin
+ ,Delete Function,DELETE,DELETE,FunctionPlugin
+ ,Delete Function Variable,DELETE,DELETE,FunctionPlugin
+ ,Delete References From,DELETE,DELETE,ReferencesPlugin
+ ,Delete Register Value Range,DELETE,DELETE,RegisterPlugin
+ ,Delete Symbols,DELETE,DELETE,SymbolTablePlugin
+ ,Delete Symbols,DELETE,DELETE,SymbolTreePlugin
+ ,Remove Equate,DELETE,DELETE,EquatePlugin
+ ,Remove Items,DELETE,DELETE,Tool
+ ,Remove Label,DELETE,DELETE,LabelMgrPlugin
+ ,Remove Stack Depth Change,DELETE,DELETE,FunctionPlugin
+ ,Rename Equate,E,E,EquatePlugin
+ ,Set Equate,E,E,EquatePlugin
+📕,Previous in History Buffer,Alt-LEFT,ESCAPE,NextPrevAddressPlugin
+ ,Create External Function,F,F,FunctionPlugin
+ ,Create Function,F,F,FunctionPlugin
+ ,"Cycle: float,double",F,F,Tool
+ ,Edit Function,F,F,FunctionPlugin
+ ,Disassemble Arm,F11,F11,DisassemblerPlugin
+ ,Disassemble MIPS,F11,F11,DisassemblerPlugin
+ ,Disassemble PPC,F11,F11,DisassemblerPlugin
+ ,Disassemble MIPS16/Micromips,F12,F12,DisassemblerPlugin
+ ,Disassemble PPC-VLE,F12,F12,DisassemblerPlugin
+ ,Disassemble Thumb,F12,F12,DisassemblerPlugin
+ ,Repeat Memory Search,F3,F3,MemSearchPlugin
+ ,Source Code Lookup,F3,F3,SourceCodeLookupPlugin
+📕,Display Decompiler,Meta-E,F5,DecompilePlugin
+ ,Go To Address/Label,G,G,GoToAddressLabelPlugin
+ ,Show All History,H,H,LabelMgrPlugin
+ ,Show Label History,H,H,LabelMgrPlugin
+ ,Import File,I,I,ImporterPlugin
+ ,Edit External Location,L,L,LabelMgrPlugin
+ ,Add Default Memory Reference,M,M,ReferencesPlugin
+ ,Set Default Register Reference,M,M,ReferencesPlugin
+ ,Set Default Stack Reference,M,M,ReferencesPlugin
+ ,Next Highlighted Range,Meta-0,Meta-0,NextPrevHighlightRangePlugin
+ ,Previous Highlighted Range,Meta-9,Meta-9,NextPrevHighlightRangePlugin
+ ,Select All,Meta-A,Meta-A,CodeBrowserPlugin
+ ,Select All Code Units,Meta-A,Meta-A,FunctionGraphPlugin
+ ,Next Bookmark,Meta-Alt-B,Meta-Alt-B,NextPrevCodeUnitPlugin
+ ,Open/Close Program View,Meta-Alt-C,Meta-Alt-C,ProgramDiffPlugin
+ ,Next Data,Meta-Alt-D,Meta-Alt-D,NextPrevCodeUnitPlugin
+ ,Enable/Disable Byteviewer Editing,Meta-Alt-E,Meta-Alt-E,ByteViewerPlugin
+ ,Next Function,Meta-Alt-F,Meta-Alt-F,NextPrevCodeUnitPlugin
+ ,Extract and Import,Meta-Alt-I,Meta-Alt-I,ImporterPlugin
+ ,Next Instruction,Meta-Alt-I,Meta-Alt-I,NextPrevCodeUnitPlugin
+ ,Next Label,Meta-Alt-L,Meta-Alt-L,NextPrevCodeUnitPlugin
+ ,Set Operand Label,Meta-Alt-L,Meta-Alt-L,LabelMgrPlugin
+ ,Next Non-Function,Meta-Alt-N,Meta-Alt-N,NextPrevCodeUnitPlugin
+ ,Toggle Code Unit Search Direction,Meta-Alt-T,Meta-Alt-T,NextPrevCodeUnitPlugin
+ ,Next Undefined,Meta-Alt-U,Meta-Alt-U,NextPrevCodeUnitPlugin
+ ,Next Different Byte Value,Meta-Alt-V,Meta-Alt-V,NextPrevCodeUnitPlugin
+ ,Previous Selected Range,Meta-BRACELEFT,Meta-BRACELEFT,NextPrevSelectedRangePlugin
+ ,Next Selected Range,Meta-BRACERIGHT,Meta-BRACERIGHT,NextPrevSelectedRangePlugin
+ ,Copy,Meta-C,Meta-C,DataTypeManagerPlugin
+ ,Copy,Meta-C,Meta-C,ClipboardPlugin
+ ,Go to next function,Meta-DOWN,Meta-DOWN,CodeBrowserPlugin
+ ,Find,Meta-F,Meta-F,DecompilePlugin
+ ,Find Data Types,Meta-F,Meta-F,DataTypeManagerPlugin
+ ,Go To Last Active Program,Meta-F6,Meta-F6,MultiTabPlugin
+ ,Go To Program,Meta-F7,Meta-F7,MultiTabPlugin
+ ,Go To Previous Program,Meta-F8,Meta-F8,MultiTabPlugin
+ ,Go To Next Program,Meta-F9,Meta-F9,MultiTabPlugin
+ ,Go To start of folder/fragment in View,Meta-G,Meta-G,ProgramTreePlugin
+ ,Set Highlight From Selection,Meta-H,Meta-H,SetHighlightPlugin
+ ,Open File System,Meta-I,Meta-I,FileSystemBrowserPlugin
+ ,Retype Variable,Meta-L,Meta-L,DecompilePlugin
+📕,Show Bookmarks,Meta-B,Meta-M,BookmarkPlugin
+ ,Zoom Out,Meta-MINUS,Meta-MINUS,FunctionGraphPlugin
+ ,Open File,Meta-O,Meta-O,ProgramManagerPlugin
+ ,Print,Meta-P,Meta-P,PrintingPlugin
+ ,Forward Refs,Meta-PERIOD,Meta-PERIOD,SelectRefsPlugin
+ ,Replace View,Meta-R,Meta-R,ProgramTreePlugin
+ ,Set Register Values,Meta-R,Meta-R,RegisterPlugin
+ ,Save File,Meta-S,Meta-S,ProgramManagerPlugin
+📕,View Memory Map,,Meta-S,MemoryMapPlugin
+ ,Back Refs,Meta-SEMICOLON,Meta-SEMICOLON,SelectRefsPlugin
+ ,Search Text,Meta-Shift-E,Meta-Shift-E,SearchTextPlugin
+📕,Zoom In,Meta-EQUALS,Meta-Shift-EQUALS,FunctionGraphPlugin
+ ,Compare Two Functions,Meta-Shift-F,Meta-Shift-F,FunctionComparisonPlugin
+ ,Repeat Text Search,Meta-Shift-F3,Meta-Shift-F3,SearchTextPlugin
+ ,Assemble,Meta-Shift-G,Meta-Shift-G,AssemblerPlugin
+ ,Rerun Last Script,Meta-Shift-R,Meta-Shift-R,Tool
+ ,ByteViewer Clone,Meta-Shift-T,Meta-Shift-T,ByteViewerPlugin
+ ,Code Viewer Clone,Meta-Shift-T,Meta-Shift-T,CodeBrowserPlugin
+ ,Decompile Clone,Meta-Shift-T,Meta-Shift-T,DecompilePlugin
+ ,Function Graph Clone,Meta-Shift-T,Meta-Shift-T,FunctionGraphPlugin
+ ,Redo,Meta-Shift-Z,Meta-Shift-Z,ProgramManagerPlugin
+ ,View Symbol Table,Meta-T,Meta-T,SymbolTablePlugin
+ ,Go to previous function,Meta-UP,Meta-UP,CodeBrowserPlugin
+ ,Paste,Meta-V,Meta-V,DataTypeManagerPlugin
+ ,Paste,Meta-V,Meta-V,ClipboardPlugin
+ ,Paste Symbols,Meta-V,Meta-V,SymbolTreePlugin
+ ,Cut,Meta-X,Meta-X,DataTypeManagerPlugin
+ ,Cut SymbolTree Node,Meta-X,Meta-X,SymbolTreePlugin
+ ,Remove folder/fragment from View,Meta-X,Meta-X,ProgramTreePlugin
+ ,Undo,Meta-Z,Meta-Z,ProgramManagerPlugin
+📕,Add Label,L,N,LabelMgrPlugin
+📕,Edit Label,L,N,LabelMgrPlugin
+ ,Rename Data Field,N,N,DataPlugin
+📕,Rename Function,L,N,FunctionPlugin
+📕,Rename Function,L,N,DecompilePlugin
+📕,Rename Function Variable,L,N,FunctionPlugin
+📕,Rename Variable,L,N,FunctionPlugin
+📕,Rename Variable,L,N,DecompilePlugin
+ ,Export Program,O,O,ExporterPlugin
+ ,Define Array,OPEN_BRACKET,OPEN_BRACKET,Tool
+ ,Commit Params/Return,P,P,DecompilePlugin
+ ,Define pointer,P,P,Tool
+ ,Add,PLUS,PLUS,DataTypePreviewPlugin
+ ,"Cycle: char,string,unicode",QUOTE,QUOTE,Tool
+ ,View/Edit References From,R,R,ReferencesPlugin
+ ,Search Memory,S,S,MemSearchPlugin
+ ,Edit Comments,SEMICOLON,SEMICOLON,CommentsPlugin
+ ,Edit Variable Comment,SEMICOLON,SEMICOLON,FunctionPlugin
+📕,Auto Analyze,A,Shift-A,AutoAnalysisPlugin
+📕,Clear Cut,ESCAPE,Shift-ESCAPE,DataTypeManagerPlugin
+ ,Create Structure,Shift-OPEN_BRACKET,Shift-OPEN_BRACKET,DataPlugin
+ ,Recover Structure Variable,Shift-OPEN_BRACKET,Shift-OPEN_BRACKET,DecompilePlugin
+ ,Toggle Expand/Collapse Data,SPACE,SPACE,CodeBrowserPlugin
+ ,Choose Data Type,T,T,Tool
+📕,Clear Code Bytes,C,U,ClearPlugin
+ ,Define void,V,V,Tool
+ ,Display Register Values,V,V,RegisterPlugin
+📕,Find References To,Meta-Shift-F,X,Tool
+📕,Find References To,,X,SymbolTreePlugin
+ ,Recently Used,Y,Y,Tool
+ ,About Ghidra,,,Tool
+ ,About program,,,AboutProgramPlugin
+ ,Add Block,,,MemoryMapPlugin
+ ,Add External Program Name,,,ReferencesPlugin
+ ,Add Reference From,,,ReferencesPlugin
+ ,Add Selection To Highlight,,,SetHighlightPlugin
+ ,Add to Version Control,,,DataTypeManagerPlugin
+ ,Aggressive Instruction Finder,,,AutoAnalysisPlugin
+ ,Align All Data Types,,,DataTypeManagerPlugin
+ ,Align Data Type,,,DataTypeManagerPlugin
+ ,Analysis Bookmarks,,,MarkerManagerPlugin
+ ,Analyze All Open,,,AutoAnalysisPlugin
+ ,Analyze Function Stack References,,,FunctionPlugin
+ ,Apply Enum,,,EquatePlugin
+ ,Apply Function Data Types,,,DataTypeManagerPlugin
+ ,ASCII Strings,,,AutoAnalysisPlugin
+ ,Auto Set Fallthroughs,,,FallThroughPlugin
+ ,Batch Import,,,ImporterPlugin
+ ,Block Focus Mode,,,FunctionGraphPlugin
+ ,Block Hover Mode,,,FunctionGraphPlugin
+ ,Byte Viewer,,,ByteViewerPlugin
+ ,Byte Viewer Options,,,ByteViewerPlugin
+ ,Call Convention Identification,,,AutoAnalysisPlugin
+ ,Call-Fixup Installer,,,AutoAnalysisPlugin
+ ,Capture Function Data Types,,,DataTypeManagerPlugin
+ ,Carry Checksum Values,,,ComputeChecksumsPlugin
+ ,Changes: Unsaved,,,MarkerManagerPlugin
+ ,CheckIn,,,DataTypeManagerPlugin
+ ,CheckIn,,,MyProgramChangesDisplayPlugin
+ ,CheckOut,,,DataTypeManagerPlugin
+ ,Clear All Colors,,,ColorizingPlugin
+ ,Clear Color,,,ColorizingPlugin
+ ,Clear Console,,,ConsolePlugin
+ ,Clear Current Selection,,,FunctionGraphPlugin
+ ,Clear External Name Association,,,ReferencesPlugin
+ ,Clear Fallthroughs,,,FallThroughPlugin
+ ,Clear Flow and Repair,,,ClearPlugin
+ ,Clear History Buffer,,,NextPrevAddressPlugin
+ ,Clear Interpreter,,,Python
+ ,Clear Pinned Symbol,,,SymbolTablePlugin
+ ,Clear Register Values,,,RegisterPlugin
+ ,Clear Selection,,,CodeBrowserPlugin
+ ,Clear Translation Value,,,TranslateStringsPlugin
+ ,Clear With Options,,,ClearPlugin
+ ,Close All,,,ProgramManagerPlugin
+ ,Close Archive,,,DataTypeManagerPlugin
+ ,Close File,,,ProgramManagerPlugin
+ ,Close Others,,,ProgramManagerPlugin
+ ,Close Tool,,,Tool
+ ,Close Tree View,,,ProgramTreePlugin
+ ,Collapse All Data,,,CodeBrowserPlugin
+ ,Collapse All folders/fragments,,,ProgramTreePlugin
+ ,Commit Locals,,,DecompilePlugin
+ ,Commit To Archive,,,DataTypeManagerPlugin
+ ,Compare Selected Functions,,,Tool
+ ,Compute Checksum,,,ComputeChecksumsPlugin
+ ,Configure Tool,,,Tool
+ ,Contents,,,Tool
+ ,Convert To Char,,,EquatePlugin
+ ,Convert To Double,,,EquatePlugin
+ ,Convert To Float,,,EquatePlugin
+ ,Convert To Signed Decimal,,,EquatePlugin
+ ,Convert To Signed Hex,,,EquatePlugin
+ ,Convert To Unsigned Binary,,,EquatePlugin
+ ,Convert To Unsigned Decimal,,,EquatePlugin
+ ,Convert To Unsigned Hex,,,EquatePlugin
+ ,Convert To Unsigned Octal,,,EquatePlugin
+ ,Copy folder/fragment,,,ProgramTreePlugin
+ ,Copy Special,,,ClipboardPlugin
+ ,Copy Special Again,,,ClipboardPlugin
+ ,Create Address Tables,,,AutoAnalysisPlugin
+ ,Create Class,,,SymbolTreePlugin
+ ,Create Complexity Depth Tree,,,ProgramTreeModularizationPlugin
+ ,Create Default Tree View,,,ProgramTreePlugin
+ ,Create Dominance Tree,,,ProgramTreeModularizationPlugin
+ ,Create External Location,,,SymbolTreePlugin
+ ,Create Folder,,,ProgramTreePlugin
+ ,Create Fragment,,,ProgramTreePlugin
+ ,Create Function Definition,,,FunctionPlugin
+ ,Create Labels From Enums,,,DataTypeManagerPlugin
+ ,Create Library,,,SymbolTreePlugin
+ ,Create Multiple Functions,,,FunctionPlugin
+ ,Create Namespace,,,SymbolTreePlugin
+ ,Create Offset References,,,OffsetTablePlugin
+ ,Create Pointer,,,DataTypeManagerPlugin
+ ,Create Table From Selection,,,CodeBrowserPlugin
+ ,Create Thunk Function,,,FunctionPlugin
+ ,Create Typedef,,,DataTypeManagerPlugin
+ ,Create Typedef From Dialog,,,DataTypeManagerPlugin
+ ,Cursor,,,MarkerManagerPlugin
+ ,Cut folder/fragment,,,ProgramTreePlugin
+ ,Data,,,QualifiedSelectionPlugin
+ ,Data References From,,,SymbolTablePlugin
+ ,Data Settings,,,DataPlugin
+ ,Data Type Conflict Resolution Mode,,,DataTypeManagerPlugin
+ ,Data Type Manager,,,DataTypeManagerPlugin
+ ,Debug Function Decompilation,,,DecompilePlugin
+ ,Decompiler Parameter ID,,,AutoAnalysisPlugin
+ ,Decompiler Switch Analysis,,,AutoAnalysisPlugin
+ ,DecompilerProperties,,,DecompilePlugin
+ ,Default Data Settings,,,DataPlugin
+ ,Define byte,,,Tool
+ ,Define char,,,Tool
+ ,Define double,,,Tool
+ ,Define dword,,,Tool
+ ,Define float,,,Tool
+ ,Define int,,,Tool
+ ,Define long,,,Tool
+ ,Define longdouble,,,Tool
+ ,Define qword,,,Tool
+ ,Define TerminatedCString,,,Tool
+ ,Define TerminatedUnicode,,,Tool
+ ,Define uint,,,Tool
+ ,Define ulong,,,Tool
+ ,Define undefined,,,Tool
+ ,Define word,,,Tool
+ ,Delete,,,GhidraScriptMgrPlugin
+ ,Delete Block,,,MemoryMapPlugin
+ ,Delete Equate,,,EquateTablePlugin
+ ,Delete External Program Name,,,ReferencesPlugin
+ ,Delete Register Value Ranges,,,Register Manager
+ ,Delete Tree View,,,ProgramTreePlugin
+ ,Disassemble Restricted,,,DisassemblerPlugin
+ ,Disassemble Static,,,DisassemblerPlugin
+ ,Disassociate From Archive,,,DataTypeManagerPlugin
+ ,Display Function Call Graph,,,FunctionCallGraphPlugin
+ ,Display Function Graph,,,FunctionGraphPlugin
+ ,Display Popup Windows,,,FunctionGraphPlugin
+ ,Display Satellite View,,,FunctionCallGraphPlugin
+ ,Display Satellite View,,,FunctionGraphPlugin
+ ,Display Script Manager,,,GhidraScriptMgrPlugin
+ ,Display Symbol Tree,,,SymbolTreePlugin
+ ,Dock Satellite View,,,FunctionCallGraphPlugin
+ ,Dock Satellite View,,,FunctionGraphPlugin
+ ,Download_PDB_File,,,PdbSymbolServerPlugin
+ ,DWARF Line Number,,,AutoAnalysisPlugin
+ ,Edit,,,DataTypeManagerPlugin
+ ,Edit,,,GhidraScriptMgrPlugin
+ ,Edit Archive Paths,,,DataTypeManagerPlugin
+ ,Edit Code Block Fields,,,FunctionGraphPlugin
+ ,Edit Data Type,,,DataPlugin
+ ,Edit External Location,,,SymbolTreePlugin
+ ,Edit External Location,,,SymbolTablePlugin
+ ,Edit Function Purge,,,FunctionPlugin
+ ,Edit Function Signature,,,DecompilePlugin
+ ,Edit Function Tags,,,FunctionTagPlugin
+ ,Edit Options,,,Tool
+ ,Edit Structure,,,FunctionPlugin
+ ,Edit Vertex Label,,,FunctionGraphPlugin
+ ,EditDataType,,,DecompilePlugin
+ ,EditEclipse,,,GhidraScriptMgrPlugin
+ ,Embedded Media,,,AutoAnalysisPlugin
+ ,Enum,,,DataTypeManagerPlugin
+ ,Enum from Selection,,,DataTypeManagerPlugin
+ ,Error Bookmarks,,,MarkerManagerPlugin
+ ,Exclude Operands,,,MnemonicSearchPlugin
+ ,Exit Ghidra,,,Tool
+ ,Expand All Data,,,CodeBrowserPlugin
+ ,Expand All folders/fragments,,,ProgramTreePlugin
+ ,Expand Block Down,,,MemoryMapPlugin
+ ,Expand Block Up,,,MemoryMapPlugin
+ ,Export,,,ExporterPlugin
+ ,Export Data Types,,,DataTypeManagerPlugin
+ ,Export to C,,,DecompilePlugin
+ ,Export Tool,,,Tool
+ ,Filter Arrays,,,DataTypeManagerPlugin
+ ,Filter Bookmarks,,,BookmarkPlugin
+ ,Filter Data Types,,,DataWindowPlugin
+ ,Filter Pointers,,,DataTypeManagerPlugin
+ ,Filter Registers,,,Register Manager
+ ,Find Data Types By Size,,,DataTypeManagerPlugin
+ ,Find Uses of Field,,,DataTypeManagerPlugin
+ ,Follow location changes,,,Register Manager
+ ,FSB Create Crypto Key Template,,,FileFormatsPlugin
+ ,FSB Decompile JAR,,,FileFormatsPlugin
+ ,FSB Export Eclipse Project,,,FileFormatsPlugin
+ ,FSB Load iOS Kernel,,,FileFormatsPlugin
+ ,Function Definition,,,DataTypeManagerPlugin
+ ,Function Graph Options,,,FunctionGraphPlugin
+ ,Function ID,,,AutoAnalysisPlugin
+ ,Function Start Search,,,AutoAnalysisPlugin
+ ,GenerateChecksum,,,ComputeChecksumsPlugin
+ ,Ghidra API Help,,,GhidraScriptMgrPlugin
+ ,Go To External Location,,,SymbolTreePlugin
+ ,Go To Function Entry Point,,,FunctionGraphPlugin
+ ,Graph Node Function Calls,,,FunctionCallGraphPlugin
+ ,Group Selected Vertices,,,FunctionGraphPlugin
+ ,Hide Incoming Edges,,,FunctionCallGraphPlugin
+ ,Hide Incoming Level Edges,,,FunctionCallGraphPlugin
+ ,Hide Outgoing Edges,,,FunctionCallGraphPlugin
+ ,Hide Outgoing Level Edges,,,FunctionCallGraphPlugin
+ ,Highlight,,,MarkerManagerPlugin
+ ,Highlight Backward Inst Slice,,,DecompilePlugin
+ ,Highlight Backward Slice,,,DecompilePlugin
+ ,Highlight Defined Use,,,DecompilePlugin
+ ,Highlight Forward Inst Slice,,,DecompilePlugin
+ ,Highlight Forward Slice,,,DecompilePlugin
+ ,Import C DataTypes,,,CParserPlugin
+ ,Include Data Members in Filter,,,DataTypeManagerPlugin
+ ,Include Operands,,,MnemonicSearchPlugin
+ ,Include Operands (except constants),,,MnemonicSearchPlugin
+ ,Info Bookmarks,,,MarkerManagerPlugin
+ ,Installed Processors,,,ProgramListPlugin
+ ,Instruction References From,,,SymbolTablePlugin
+ ,Instructions,,,QualifiedSelectionPlugin
+ ,Jump to a XRef,,,FunctionGraphPlugin
+ ,Key Binding,,,GhidraScriptMgrPlugin
+ ,Load PDB File,,,PdbPlugin
+ ,Lock Archive,,,DataTypeManagerPlugin
+ ,Make Selection,,,SymbolTreePlugin
+ ,Make Selection,,,Tool
+ ,Make Selection From Focused Edges,,,FunctionGraphPlugin
+ ,Make Selection From Hovered Edges,,,FunctionGraphPlugin
+ ,Merge Blocks,,,MemoryMapPlugin
+ ,Merge folder/fragment with Parent,,,ProgramTreePlugin
+ ,Modify Instruction Flow,,,DisassemblerPlugin
+ ,Modularize By Subroutine [Isolated Entry],,,ModuleAlgorithmPlugin
+ ,Modularize By Subroutine [Multiple Entry],,,ModuleAlgorithmPlugin
+ ,Modularize By Subroutine [Overlapped Code],,,ModuleAlgorithmPlugin
+ ,Modularize By Subroutine [Partitioned Code],,,ModuleAlgorithmPlugin
+ ,Move Block,,,MemoryMapPlugin
+ ,Navigate on Incoming Location Changes,,,FunctionCallGraphPlugin
+ ,Navigation,,,ProgramTreePlugin
+ ,Navigation,,,SymbolTreePlugin
+ ,New,,,GhidraScriptMgrPlugin
+ ,New Category,,,DataTypeManagerPlugin
+ ,New File Data Type Archive,,,DataTypeManagerPlugin
+ ,New Project Data Type Archive,,,DataTypeManagerPlugin
+ ,Next Color Range,,,ColorizingPlugin
+ ,Next Data Type in History,,,DataTypeManagerPlugin
+ ,Non-Returning Functions - Discovered,,,AutoAnalysisPlugin
+ ,Note Bookmarks,,,MarkerManagerPlugin
+ ,On Selection,,,ComputeChecksumsPlugin
+ ,Ones Complement,,,ComputeChecksumsPlugin
+ ,Open File Data Type Archive,,,DataTypeManagerPlugin
+ ,Open Project Data Type Archive,,,DataTypeManagerPlugin
+ ,Open Tree View,,,ProgramTreePlugin
+ ,Override Signature,,,DecompilePlugin
+ ,Overview,,,OverviewColorPlugin
+ ,Page Setup,,,PrintingPlugin
+ ,Paste folder/fragment,,,ProgramTreePlugin
+ ,Pin Symbol,,,SymbolTablePlugin
+ ,Previous Color Range,,,ColorizingPlugin
+ ,Previous Data Type in History,,,DataTypeManagerPlugin
+ ,Processor Options,,,DisassemblerPlugin
+ ,Program Options,,,ProgramManagerPlugin
+ ,Re-create Function,,,FunctionPlugin
+ ,References To,,,SymbolTablePlugin
+ ,Refresh,,,DecompilePlugin
+ ,Refresh,,,GhidraScriptMgrPlugin
+ ,Refresh BuiltInTypes,,,DataTypeManagerPlugin
+ ,Relayout Graph,,,FunctionGraphPlugin
+ ,Remove From Group,,,FunctionGraphPlugin
+ ,Remove Highlight,,,SetHighlightPlugin
+ ,Remove Invalid Archive,,,DataTypeManagerPlugin
+ ,Remove Signature Override,,,DecompilePlugin
+ ,Rename,,,DataTypeManagerPlugin
+ ,Rename,,,GhidraScriptMgrPlugin
+ ,Rename folder/fragment,,,ProgramTreePlugin
+ ,Rename Fragment from Code Browser,,,AutoRenamePlugin
+ ,Rename Fragment from Program Tree View,,,AutoRenamePlugin
+ ,Rename Symbol,,,SymbolTreePlugin
+ ,Rename Tree View,,,ProgramTreePlugin
+ ,Reset Graph,,,FunctionGraphPlugin
+ ,Reset Graph,,,FunctionCallGraphPlugin
+ ,Restore Selection,,,RestoreSelectionPlugin
+ ,Revert Data Type,,,DataTypeManagerPlugin
+ ,Revert Thunk Function,,,FunctionPlugin
+ ,Run,,,GhidraScriptMgrPlugin
+ ,Save,,,DataTypeManagerPlugin
+ ,Save All Files,,,ProgramManagerPlugin
+ ,Save As File,,,ProgramManagerPlugin
+ ,Save Tool,,,Tool
+ ,Save Tool As,,,Tool
+ ,Script Directories,,,GhidraScriptMgrPlugin
+ ,Scroll Lock,,,ConsolePlugin
+ ,Search for Address Tables,,,AutoTableDisassemblerPlugin
+ ,Search for Direct References,,,FindPossibleReferencesPlugin
+ ,Search for Scalars,,,ScalarSearchPlugin
+ ,Search for Strings,,,StringTablePlugin
+ ,Search Instruction Patterns,,,InstructionSearchPlugin
+ ,select addresses,,,ProgramTreeSelectionPlugin
+ ,Select All Flows From,,,SelectByFlowPlugin
+ ,Select All Flows To,,,SelectByFlowPlugin
+ ,Select Bookmark Locations,,,BookmarkPlugin
+ ,Select Complement,,,CodeBrowserPlugin
+ ,Select Dead Subroutine,,,SelectByFlowPlugin
+ ,Select Forward Scoped Flow,,,SelectByScopedFlowPlugin
+ ,Select Function,,,SelectByFlowPlugin
+ ,Select Limited Flows From,,,SelectByFlowPlugin
+ ,Select Limited Flows To,,,SelectByFlowPlugin
+ ,Select Program Changes,,,SelectByFlowPlugin
+ ,Select Register Value Ranges,,,Register Manager
+ ,Select Reverse Scoped Flow,,,SelectByScopedFlowPlugin
+ ,Select Subroutine,,,SelectByFlowPlugin
+ ,SelectBlock,,,SelectBlockPlugin
+ ,Selection,,,MarkerManagerPlugin
+ ,Set Color,,,ColorizingPlugin
+ ,Set EOL Comment,,,CommentsPlugin
+ ,Set External Name Association,,,ReferencesPlugin
+ ,Set External Program,,,SymbolTreePlugin
+ ,Set Fallthrough,,,FallThroughPlugin
+ ,Set Favorite Data Type,,,DataTypeManagerPlugin
+ ,Set Filter,,,SymbolTablePlugin
+ ,Set Image Base,,,MemoryMapPlugin
+ ,Set Plate Comment,,,CommentsPlugin
+ ,Set Post Comment,,,CommentsPlugin
+ ,Set Pre Comment,,,CommentsPlugin
+ ,Set Repeatable Comment,,,CommentsPlugin
+ ,Set Selection From Highlight,,,SetHighlightPlugin
+ ,Set Stack Depth Change,,,FunctionPlugin
+ ,Set Thunked Function,,,FunctionPlugin
+ ,Shared Return Calls,,,AutoAnalysisPlugin
+ ,Show Base Data Type,,,DataTypeManagerPlugin
+ ,Show Comment History,,,CommentsPlugin
+ ,Show default register values,,,Register Manager
+ ,Show Function Call Trees,,,CallTreePlugin
+ ,Show Hex Values,,,ComputeChecksumsPlugin
+ ,Show History,,,DataTypeManagerPlugin
+ ,Show Incoming Edges,,,FunctionCallGraphPlugin
+ ,Show Incoming Level Edges,,,FunctionCallGraphPlugin
+ ,Show Instruction Info,,,ShowInstructionInfoPlugin
+ ,Show Outgoing Edges,,,FunctionCallGraphPlugin
+ ,Show Outgoing Level Edges,,,FunctionCallGraphPlugin
+ ,Show Preview Window,,,DataTypeManagerPlugin
+ ,Show Processor Manual,,,ShowInstructionInfoPlugin
+ ,Sort Fragments By Address,,,ModuleSortPlugin
+ ,Sort Fragments By Name,,,ModuleSortPlugin
+ ,Split Block,,,MemoryMapPlugin
+ ,Stack,,,AutoAnalysisPlugin
+ ,Structure,,,DataTypeManagerPlugin
+ ,Subtract Selection From Highlight,,,SetHighlightPlugin
+ ,Symbol References,,,SymbolTablePlugin
+ ,Toggle Header,,,CodeBrowserPlugin
+ ,Toggle Mouse Hover Popups,,,CodeBrowserPlugin
+ ,Toggle Show Translated Value,,,TranslateStringsPlugin
+ ,Translate with Manual,,,TranslateStringsPlugin
+ ,Twos Complement,,,ComputeChecksumsPlugin
+ ,Undefined,,,QualifiedSelectionPlugin
+ ,UndoCheckOut,,,DataTypeManagerPlugin
+ ,Ungroup All Vertices,,,FunctionGraphPlugin
+ ,Ungroup Selected Vertices,,,FunctionGraphPlugin
+ ,Union,,,DataTypeManagerPlugin
+ ,Unlock Archive,,,DataTypeManagerPlugin
+ ,Update,,,DataTypeManagerPlugin
+ ,Update,,,MyProgramChangesDisplayPlugin
+ ,Update From Archive,,,DataTypeManagerPlugin
+ ,User Agreement,,,Tool
+ ,Vertex View Mode,,,FunctionGraphPlugin
+ ,View Check Outs,,,DataTypeManagerPlugin
+ ,View Symbol References,,,SymbolTablePlugin
+ ,Warning Bookmarks,,,MarkerManagerPlugin
+ ,XOR Checksum Values,,,ComputeChecksumsPlugin
+ ,Zoom to Vertex,,,FunctionGraphPlugin
+ ,Zoom to Window,,,FunctionGraphPlugin
